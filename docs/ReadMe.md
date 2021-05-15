@@ -123,4 +123,10 @@ You may use variables to define and store preflop ranges. Variables are stored b
 
 <code>Tab</code> navigate between parallel panes.
 
+## 8. User Variables Export & Import 
+
+<code>Alt+s</code> Export User Variables to Clipboard. 
+
+<code>Alt+q</code> Export User Variables to a file. 
+
 
