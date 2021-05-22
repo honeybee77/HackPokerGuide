@@ -1,0 +1,13 @@
+﻿:root {
+    --background-default: rgba(22, 22, 22, 1);
+    --background-highlight-depth-1: rgba(0, 136, 255, 0.3);
+    --background-highlight-depth-2: rgba(0, 136, 255, 0.1);
+    --font-color: white;
+    --font-color-high-priority: yellow;
+    --font-color-middle-priority: rgba(255,255,255,0.5);
+    --font-color-low-priority: rgba(255,255,255,0.30);
+    --font-color-highlight-depth-1: rgba(45, 157, 255, 0.6);
+    --font-color-highlight-depth-2: rgba(45, 157, 255, 1);
+    --density-padding-vertical: 4px;
+    --density-padding-horizontal: 12px;
+}

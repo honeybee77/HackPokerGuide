@@ -1,0 +1,82 @@
+﻿:focus {
+    outline: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #343637;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #4D4E4F;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #4D4E4F;
+}
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    height: 100%;
+    background: rgba(22, 22, 22, 1);
+    font-size: 24px;
+    color: white;
+}
+
+a, .btn-link {
+    color: #0366d6;
+}
+
+.console-panel-view {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.valid.modified:not([type=checkbox]) {
+    outline: 1px solid #26b050;
+}
+
+.invalid {
+    outline: 1px solid red;
+}
+
+.validation-message {
+    color: red;
+}
+
+#blazor-error-ui {
+    background: lightyellow;
+    bottom: 0;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+    display: none;
+    left: 0;
+    padding: 0.6rem 1.25rem 0.7rem 1.25rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+#blazor-error-ui .dismiss {
+    cursor: pointer;
+    position: absolute;
+    right: 0.75rem;
+    top: 0.5rem;
+}
+
+a {
+    color: #2CCDF2;
+}
+
+

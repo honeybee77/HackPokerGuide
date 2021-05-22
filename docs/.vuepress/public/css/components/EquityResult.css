@@ -1,0 +1,18 @@
+﻿.equity-result__row--highest-equity {
+    color: #00ff33;
+}
+.equity-result__row--high-equity {
+    color: #aaff00;
+}
+.equity-result__row--medium-equity {
+    color: #ffff00;
+}
+.equity-result__row--low-equity {
+    color: #ffc400;
+}
+.equity-result__row--lower-equity {
+    color: #ff7700;
+}
+.equity-result__row--lowest-equity {
+    color: #ff0000;
+}

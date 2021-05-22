@@ -1,0 +1,51 @@
+﻿body {
+    font-size: 16px;
+    font-family: 'Cascadia Code';
+    font-weight: normal;
+    font-style: normal;
+    line-height: 26px;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+.priority_normal {
+    color: var(--font-color);
+    font-weight: 400;
+}
+
+.priority_high {
+    color: var(--font-color-high-priority);
+    font-weight: 200;
+}
+
+.priority_middle {
+    color: var(--font-color-middle-priority);
+    font-weight: 200;
+}
+
+.priority_low {
+    color: var(--font-color-low-priority);
+    font-weight: 200;
+}
+
+.command {
+    font-family: Roboto;
+    background: inherit;
+    font-weight: 600;
+}
+
+.call-to-input {
+    color: var(--font-color-high-priority);
+}
+
+.tutorial-text {
+    color: cyan;
+}
+
+.tutorial-exit-tip {
+    font-size: 14px;
+    color: var(--font-color-low-priority);
+}
+

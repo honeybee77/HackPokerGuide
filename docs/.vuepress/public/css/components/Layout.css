@@ -1,0 +1,178 @@
+﻿/* .page {
+    position: absolute;
+    overflow: auto;
+    margin-left: 8%;
+    margin-right: 8%;
+    background: rgba(22, 22, 22, 1);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-left: 1px solid rgba(46, 46, 46, 1);
+    border-right: 1px solid rgba(46, 46, 46, 1);
+    color: var(--font-color);
+} */
+:focus {
+    outline: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #343637;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #4D4E4F;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #4D4E4F;
+}
+
+.example { 
+    border-radius: 5px;
+    background: rgba(22, 22, 22, 1);   
+    padding: 5px 10px 5px 10px;
+}
+
+.no-wrap {
+    white-space: nowrap;
+}
+
+.overflow_dotted {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
+
+.invisible {
+    display: none;
+}
+
+.error {
+    color: #FE7979;
+}
+
+.block {
+    padding: var(--density-padding-vertical) 0;
+}
+
+.container {
+    padding: var(--density-padding-vertical) calc(2 * var(--density-padding-horizontal));
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.row_spacing_1x > * {
+    margin-left: var(--density-padding-horizontal);
+}
+
+.row_spacing_2x > * {
+    margin-left: calc(2*var(--density-padding-horizontal));
+}
+
+.row_spacing_4x > * {
+    margin-left: calc(4*var(--density-padding-horizontal));
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.column_spacing_1x > * {
+    margin-top: calc(1 * var(--density-padding-vertical));
+}
+
+.column_spacing_4x > * {
+    margin-top: calc(4 * var(--density-padding-vertical));
+}
+
+.row_align_right {
+    justify-content: flex-end;
+}
+
+.row_align_left {
+    justify-content: flex-start;
+}
+
+.stretched {
+    align-self: stretch;
+}
+
+.row > .stretch {
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.column > .stretch {
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.column_align_left {
+    align-items: flex-start;
+}
+
+.border {
+    border: 1px solid;
+}
+
+.centered {
+    align-items: center;
+}
+
+.horizontally_centered {
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.full-height {
+    height: 100%;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.single-line {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.single-line br {
+    display: none;
+}
+
+.single-line * {
+    display: inline;
+    white-space: nowrap;
+}
+
+.grid {
+    display: grid;
+}
+
+@media only screen and (max-width: 900px) {
+    .page {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+
+
