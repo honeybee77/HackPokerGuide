@@ -5,7 +5,7 @@ sidebarDepth: 0
 
 ### Clear
 
-Type in <code>top0</code> and press <code>Enter</code>
+Type in <code>0</code> and press <code>Enter</code>
 
 <div class="tip custom-block">
 <p>
