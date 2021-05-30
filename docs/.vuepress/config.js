@@ -18,7 +18,7 @@ module.exports = {
     '/': {
       lang: 'en-US', // this will be set as the lang attribute on <html>
       title: 'HackPoker',
-      description: 'Description'
+      description: 'Guide'
     },
     '/ru/': {
       lang: 'ru-Ru',
@@ -63,6 +63,11 @@ module.exports = {
               ['', 'Examples']
             ],
             '/': [     
+              { 
+                title: 'Introduction',           
+                collapsable: false, 
+                path: '/introduction',                
+              },
               { 
                 title: 'Game Mode',           
                 collapsable: false, 

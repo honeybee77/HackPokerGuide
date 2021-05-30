@@ -1,5 +1,3 @@
-# Not yet implemented
-
 # Tables
 
 <div class="tip custom-block">
@@ -10,14 +8,18 @@ Tables are a convinient way to organize User Variables.
 </p>
 </div>
 
-### 1. Create a table in Google Sheets and copy it. 
+1. Create a table in <a href="https://www.google.com/sheets/about/">Google Sheets</a> and copy it. To specify Header cells put text inside the square brackets <code>[Header Cell Text]</code>. 
 
 ![Table Copy Image](/images/tablecopy.png)
 
-### 2. In Command Line type in <code>table</code> followed by a name you want to give to your table, followed by <code>Space</code> and paste data from Clipboard, press <code>Enter</code>.
+2. In Command Line type in table name followed by <code>Space</code> and paste data from Clipboard. Press <code>Enter</code>.
 
-![Table Command Image](/images/tablecommand.png)
+For instance: 
 
-### 3. Type in table name and press<code>Enter</code> to see the table.  
+![Table Copy Image](/images/table.png)
+
+3. The Result: 
+
+<table-1/>
 
 
