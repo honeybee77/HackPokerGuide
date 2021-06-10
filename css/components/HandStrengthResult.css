@@ -1,0 +1,24 @@
+﻿.hand-strength-result__frequency-indicator {
+    height: 4px;
+    border-radius: 2px;
+}
+
+.hand-strength-result__groups-separator {
+    border-top: 1px dashed var(--font-color-middle-priority);
+}
+
+.hand-srength-result__indicator-cell {
+    width: 300px;
+}
+
+@media only screen and (max-width: 900px) {
+    .data-grid {
+        column-gap: 1em;
+    }
+
+    .hand-srength-result__indicator-cell {
+        width: 120px;   
+    }
+
+}
+

@@ -1,0 +1,92 @@
+﻿.tutorial-popup {
+    max-width: 85%;
+    align-self: flex-start;
+    background: #0076A2;
+    padding: 20px 32px;
+    position: relative;
+    border: 1px solid #0076A2;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, .7);
+    -webkit-box-shadow: -0px 0px 6px rgba(0, 0, 0, .7);
+    -moz-box-shadow: 0px 0px 6px rgba(0, 0, 0, .7);
+}
+
+.tutorial-popup:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    bottom: -8px;
+    left: 15px;
+    width: 14px;
+    height: 14px;
+    border-color: #0076A2;
+    border-width: 1px;
+    border-style: none none solid solid;
+    background-color: #0076A2;
+    box-shadow: -2px 2px 3.5px rgba(0, 0, 0, .5);
+    -webkit-box-shadow: -2px 2px 3.5px rgba(0, 0, 0, .5);
+    -moz-box-shadow: -2px 2px 3.5px rgba(0, 0, 0, .5);
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+}
+
+
+.tutorial-popup__header {
+    font-size: 22px;
+    color: white;
+    font-family: "Cascadia Code";
+    font-weight: 200;
+    margin-bottom: 8px;
+}
+
+.tutorial-popup_body {
+    color: rgba(255,255, 255, 0.6);
+    font-family: "Cascadia Code";
+    font-size: 16px;
+    text-wrap: none;
+}
+
+.tutorial-popup__call-to-action {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 4px 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 400;
+}
+
+.tutorial-popup__caption {
+    text-transform: uppercase;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Roboto";
+}
+
+.tutorial-popup__steps {
+    align-self: flex-end;
+    font-family: "Roboto";
+}
+
+.tutorial-popup__close-button {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    background: transparent;
+    border: none;
+    font-size: 22px;
+}
+
+.tutorial-popup__close-button::after {
+    content: "\00d7";
+    font-weight: 200;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+.tutorial-popup__close-button:hover {
+    background: rgba(255, 255, 255, 0.1);
+}

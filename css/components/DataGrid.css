@@ -1,0 +1,28 @@
+﻿.data-grid {
+    display: grid;
+    /*column-gap: calc(2 * var(--density-padding-horizontal));
+    row-gap: var(--density-padding-vertical);*/
+    column-gap: 4em;
+}
+
+.data-grid__cell {
+    display: flex;
+    min-width: calc(6 * var(--font-size));
+    overflow: hidden;
+}
+
+.data-grid__header-cell {
+    display: flex;
+    min-width: calc(6 * var(--font-size));
+    overflow: hidden;
+    padding-bottom: var(--density-padding-vertical);
+}
+
+.data-grid__cell--overflow-dots {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+

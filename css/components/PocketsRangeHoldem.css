@@ -1,0 +1,30 @@
+﻿.pockets-range-holdem {
+    display: grid;
+    grid-auto-rows: 1fr;
+}
+
+.pockets-range-holdem__cell {
+    width: 36px;
+    height: 36px;
+    color: var(--font-color-low-priority);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.pockets-range-holdem__weight-indicator {
+    color: var(--font-color-low-priority);
+    height: 6px;
+    position: absolute;
+    top: 24px;
+}
+
+.pockets-range-holdem__cell_pair {
+    color: var(--font-color-middle-priority);
+}
+.pockets-range-holdem__cell_selected {
+    color: var(--font-color);
+    /*font-weight: 600;*/
+    /*background: rgba(255, 255, 255, 0.1);*/
+}
