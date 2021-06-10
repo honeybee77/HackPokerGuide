@@ -3,16 +3,16 @@
 ### What is a Variable ? 
 
 A Variable is basically some name you've come up with and some value attached to it. Value can be either board or a range.<br/> 
-Variable containing range, e.g., <code>pairs TT+</code> 
+Type in <code>pairs TT+</code> press Enter
 
 <pairstt-1/>
 
-Variable containing board, e.g., <code>Khigh K[2-Q][2-Q]</code>
+Variable containing board, type in <code>Khigh K[2-Q][2-Q]</code> and press Enter
 
 <div class="tip custom-block">
 <p>
 
-[Tables](/uservariables/tables) is a convenient way to organize your variables. 
+[Tables](/uservariables/tables) is a convenient way to organize variables. 
  
 </p>
 </div>

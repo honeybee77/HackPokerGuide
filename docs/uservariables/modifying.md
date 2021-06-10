@@ -1,5 +1,9 @@
 # Modifying Variables
 
+### Adding Range to a Variable
+
+Type in your variable name followed by a range, press Enter. For example, <code>MyVariable 67s 89s</code> will add 67s and 89s to MyVariable. If the variable <code>MyVariable</code> doesn't exist it will be created. 
+
 ### Remove a Variable 
 
 Type in <code>remove</code> followed by a variable name. E.g, <code>remove btnopenraise</code>, now variable <code>btnopenraise</code> is removed.</br>

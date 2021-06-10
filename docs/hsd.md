@@ -16,13 +16,13 @@ One hand always belongs to exactly one category. For example, <code>9T on 789 </
 
 ### Hand Strength Distribution on a single [Board](/boards).
 
-<code>top20 on 7c8c9h</code>:
+Type in <code>top20 on 7c8c9h</code> and press Enter
 
 <top20on7c8c9h-1/>
 
 ### Hand Strength Distribution on a spectrum of [Boards](/boards).
 
-<code>ATo-ATs on Axx</code>:
+Type in <code>ATo-ATs on Axx</code> and press Enter
 
 <atoatsonaxx-1/>
 
